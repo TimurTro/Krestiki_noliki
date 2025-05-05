@@ -22,7 +22,7 @@ def take_input(player_token):
             доска[ответ_игрока-1] = player_token
             valid = True
          else:
-            print("Эта клетка уже занята! ")
+            print("Эта клетка уже занята!")
       else:
         print("Некорректный ввод. Введите число от 1 до 9.")
 
